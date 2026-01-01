@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "Status: Wizardmon is definitely sober",
         "Status: Finding new safety tips",
         "Status: Debugging reality itself",
-        "Status: Crying over said bugs"
+        "Status: Crying over said bugs",
+        "Status: Not dead we prommy"
     ];
 
     let messageIndex = 0;
