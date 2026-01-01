@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "Status: Finding new safety tips",
         "Status: Debugging reality itself",
         "Status: Crying over said bugs",
-        "Status: Not dead we prommy"
+        "Status: Not dead we prommy",
+        "Status: Practicing CPR"
     ];
 
     let messageIndex = 0;
