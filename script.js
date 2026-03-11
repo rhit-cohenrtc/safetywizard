@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "Stand behind the yellow line",
             "Do not leave fires unattended",
             "In case of choking, you can use the palm of your hand to firmly hit the choking person on the back between the shoulder blades to help dislodge food",
-            "The American Red Cross offers first aid and CPR classes, including online on their website"
+            "The American Red Cross offers first aid and CPR classes, including online ones on their website"
         ];
 
         const randomPhrase =
