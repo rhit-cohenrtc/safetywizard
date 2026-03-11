@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const wizmon = document.getElementById("wizmon");
     const status = document.getElementById("status");
+    const hint = document.getElementById("hint");
 
     if (!wizmon || !status) return;
 
@@ -41,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const randomPhrase =
             possible_phrases[Math.floor(Math.random() * possible_phrases.length)];
 
-        status.textContent = "Status: " + randomPhrase;
+        hint.textContent = randomPhrase;
 
         setTimeout(() => {
             wizmon.style.transform = "";
