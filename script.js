@@ -130,4 +130,3 @@ class PageFooter extends HTMLElement {
 }
 
 customElements.define('page-footer', PageFooter);
-
