@@ -7,12 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const messages = [
         "Status: Building webpage",
         "Status: Doom scrolling",
-        "Status: Wizardmon is definitely sober",
+        "Status: Wizardmon is definitely not chugging hot sauce",
         "Status: Finding new safety tips",
         "Status: Debugging reality itself",
         "Status: Crying over said bugs",
         "Status: Not dead we prommy",
-        "Status: Practicing CPR"
+        "Status: Practicing CPR",
+        "Status: Looking at cat pictures"
     ];
 
     let messageIndex = 0;
