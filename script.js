@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         wizmon.style.transform = "scale(1.1) rotate(3deg)";
 
         const possible_phrases = [
-            "You have angered him.",
+            "remember stroke symptoms with FAST: Face drooping  (motor difficulties or lopsided) Arm weakness  (inability or difficulty to fully raise arm, grab, move) Speech slurred (difficulty speaking, repeating) Time to act! If the above symptoms show, get medical care immediately",
             "Please let him work.",
             "Stop clicking him.",
             "Do you want this page finished?",
