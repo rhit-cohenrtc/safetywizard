@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(() => {
         messageIndex = (messageIndex + 1) % messages.length;
         status.textContent = messages[messageIndex];
-    }, 3000);
+    }, 5000);
 
     // Click interaction
     wizmon.addEventListener("click", () => {
