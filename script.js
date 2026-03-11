@@ -75,9 +75,7 @@ class PageFooter extends HTMLElement {
                 rel="noopener noreferrer"
             >
                 Safety Officer Wizardmon on Tumblr
-            </a>
-             <a 
-            >   
+            </a> 
                 |
             </a>
              <a 
@@ -87,7 +85,6 @@ class PageFooter extends HTMLElement {
             >
                 See my writing
             </a>
-            >   
                 |
             </a>
              <a 
