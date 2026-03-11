@@ -77,6 +77,9 @@ class PageFooter extends HTMLElement {
                 Safety Officer Wizardmon on Tumblr
             </a>
              <a 
+                     
+            </a>
+             <a 
                 href="https://notasouleatercf98a585ab.wordpress.com/"
                 target="_blank"
                 rel="noopener noreferrer"
