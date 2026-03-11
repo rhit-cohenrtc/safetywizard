@@ -77,6 +77,7 @@ class PageFooter extends HTMLElement {
                 Safety Officer Wizardmon on Tumblr
             </a>
              <a 
+            >   
                 |
             </a>
              <a 
