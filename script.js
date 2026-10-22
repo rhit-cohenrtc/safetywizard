@@ -10,7 +10,7 @@ class PageHeader extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-        <footer class="site-header">
+        <header class="site-header">
             <a 
                 href="https://www.tumblr.com/safetyofficerwizardmon?source=share"
                 target="_blank"
@@ -36,7 +36,7 @@ class PageHeader extends HTMLElement {
             >
                 Scripts
             </a>
-        </footer>
+        </header>
     `;
   }
 }
