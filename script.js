@@ -3,6 +3,47 @@ document.addEventListener("DOMContentLoaded", () => {
     const status = document.getElementById("status");
     const hint = document.getElementById("hint");
 
+class PageHeader extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
+        <footer class="site-header">
+            <a 
+                href="https://www.tumblr.com/safetyofficerwizardmon?source=share"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Bio
+            </a> 
+                |
+            </a>
+             <a 
+                href="https://notasouleatercf98a585ab.wordpress.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Lighting Portfolio
+            </a>
+                |
+            </a>
+             <a 
+                href="https://archiveofourown.org/works?work_search%5Bsort_column%5D=revised_at&include_work_search%5Bcharacter_ids%5D%5B%5D=125786896&work_search%5Bother_tag_names%5D=&work_search%5Bexcluded_tag_names%5D=&work_search%5Bcrossover%5D=&work_search%5Bcomplete%5D=&work_search%5Bwords_from%5D=&work_search%5Bwords_to%5D=&work_search%5Bdate_from%5D=&work_search%5Bdate_to%5D=&work_search%5Bquery%5D=&work_search%5Blanguage_id%5D=&commit=Sort+and+Filter&user_id=Notasouleater"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Scripts
+            </a>
+        </footer>
+    `;
+  }
+}
+
+customElements.define('page-header', PageHeader);
+
+
     if (!wizmon || !status) return;
 
     const messages = [
