@@ -11,15 +11,10 @@ class PageHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <header class="site-header">
-            <a 
-                href="<main class="container">"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Bio
-            </a> 
-                |
-            </a>
+            <div id="main.container"></div>
+            <a href="#main.container">Bio</a>
+                <!-- The above two lines are the jump code -->
+            |
              <a 
                 href="https://notasouleatercf98a585ab.wordpress.com/"
                 target="_blank"
@@ -36,6 +31,8 @@ class PageHeader extends HTMLElement {
             >
                 Scripts
             </a>
+                | This is a test header and can be ignored
+            
         </header>
     `;
   }
