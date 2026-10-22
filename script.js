@@ -12,7 +12,7 @@ class PageHeader extends HTMLElement {
     this.innerHTML = `
         <header class="site-header">
             <a 
-                href="https://www.tumblr.com/safetyofficerwizardmon?source=share"
+                href="<main class="container">"
                 target="_blank"
                 rel="noopener noreferrer"
             >
