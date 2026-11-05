@@ -36,6 +36,7 @@ h1 {
 .subtitle {
     color: #c7c7ff;
     margin-bottom: 1.5rem;
+    align-items: left;
 }
 
 .image-wrapper {
