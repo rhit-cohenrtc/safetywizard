@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 5;
     min-height: 100vh;
     display: flex;
     flex-direction: column; /* stack children vertically */
@@ -16,10 +16,11 @@ body {
 }
 
 main.container {
-    text-align: center;
+    text-align: left;
+    vertical-align: middle;
     padding: 2rem;
-    max-width: 600px;
-    width: 100%;
+    max-width: 1000px;
+    width: 95%;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
@@ -39,19 +40,16 @@ h1 {
 
 .image-wrapper {
     margin: 1.5rem 0;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
 }
 
 .image-wrapper img {
     max-width: 250px;
     width: 100%;
     border-radius: 12px;
-    cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.image-wrapper img:hover {
-    transform: scale(1.05) rotate(-1deg);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 
 .hint {
